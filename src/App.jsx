@@ -13,6 +13,9 @@ function App() {
       </p>
       <p>
           Noe
+          <a href="Side1/page_1.jsx">
+          Link til tekst oppgven
+        </a>
       </p>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
