@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import App from "./Side1/page_1";
+import Page from "./Side1/page_1";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route
             path="/page_1"
-            element={<page_1/>}
+            element={<Page/>}
           />
          </Routes>
       </Router>

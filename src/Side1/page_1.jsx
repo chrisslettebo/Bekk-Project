@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+function Page() {
   return (
     <div className="card">
       <h1>Velkommen nybegynner! 👋</h1>
