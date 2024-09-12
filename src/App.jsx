@@ -23,11 +23,6 @@ function App() {
       <p>
           Link til tekst oppgven
       </p>
-      <>
-
-     
-
-      </>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
