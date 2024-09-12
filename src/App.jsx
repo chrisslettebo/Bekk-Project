@@ -1,14 +1,5 @@
 import "./App.css";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-
-import Page from "./Side1/page_1";
-
 function App() {
   return (
     <div className="card">
