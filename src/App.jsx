@@ -24,11 +24,15 @@ function App() {
           Link til tekst oppgven
       </p>
       <>
-      <Route
-        exact
-        path="/page_1"
-        element={<page_1/>}
-      />
+      <Router>  
+        <Routes>
+          <Route
+            exact
+            path="/page_1"
+            element={<page_1/>}
+          />
+         </Routes>
+      </Router>
       </>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
