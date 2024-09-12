@@ -13,8 +13,9 @@ function App() {
       </p>
       <p>
         Noe
-        <Link to="/">page_1</Link>
+        
       </p>
+      <Link to="/">page_1</Link>
       <Route exact path="/Side1" component={page_1} />
       <p>
         Du kan ingenting <code>src/App.jsx</code>
