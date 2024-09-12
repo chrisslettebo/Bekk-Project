@@ -16,9 +16,7 @@ function App() {
       <p>
           Noe
       </p>
-        <Link href="/page_1"> 
-            Link til neste
-        </Link>
+        
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
