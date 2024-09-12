@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import page_1 from "./Side1/page_1";
+import App from "./Side1/page_1";
 
 function App() {
   return (
