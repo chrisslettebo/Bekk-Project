@@ -1,6 +1,4 @@
 import "./App.css";
-import page_1 from "/Side1/page_1.jsx"
-import Link from "next/link";
 
 function App() {
   return (
@@ -16,7 +14,6 @@ function App() {
       <p>
           Noe
       </p>
-        
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
