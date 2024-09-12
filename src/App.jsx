@@ -24,14 +24,14 @@ function App() {
           Link til tekst oppgven
       </p>
       <>
-      <Router>  
+
         <Routes>
           <Route
             path="/page_1"
             element={<Page/>}
           />
          </Routes>
-      </Router>
+
       </>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
