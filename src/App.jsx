@@ -1,5 +1,14 @@
 import "./App.css";
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
+import page_1 from "./Side1/page_1";
+
 function App() {
   return (
     <div className="card">
@@ -12,11 +21,13 @@ function App() {
     
       </p>
       <p>
-          Noe
-          <a href="Side1/page_1.jsx">
           Link til tekst oppgven
-        </a>
       </p>
+      <Route
+        exact
+        path="/page_1"
+        element={<page_1/>}
+      />
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
