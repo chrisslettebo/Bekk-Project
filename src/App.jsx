@@ -1,4 +1,5 @@
 import "./App.css";
+import page_1 from "/Side1/page_1.jsx"
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
         
       </p>
       <p>
-        Noe
-        
+          Noe
       </p>
-      <Link to="/">page_1</Link>
-      <Route exact path="/Side1" component={page_1} />
+        <a href="page_1">
+          Link til tekst oppgven
+        </a>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
