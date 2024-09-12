@@ -23,11 +23,13 @@ function App() {
       <p>
           Link til tekst oppgven
       </p>
+      <>
       <Route
         exact
         path="/page_1"
         element={<page_1/>}
       />
+      </>
       <p>
         Du kan ingenting <code>src/App.jsx</code>
       </p>
