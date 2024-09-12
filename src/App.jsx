@@ -25,12 +25,7 @@ function App() {
       </p>
       <>
 
-        <Routes>
-          <Route
-            path="/page_1"
-            element={<Page/>}
-          />
-         </Routes>
+     
 
       </>
       <p>
